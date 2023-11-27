@@ -1,6 +1,5 @@
 from flask import render_template, request, redirect, url_for
 from app import app
-
 users = {'admin': 'admin123'}
 
 @app.route('/login', methods=['GET', 'POST'])
